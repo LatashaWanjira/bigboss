@@ -1,0 +1,28 @@
+#landing-page {
+  margin: 0;
+}
+
+#landing-page h1 {
+  font-size: 70px;
+  font-style: italic;
+  text-align: right;
+  color: #FFF100;
+  padding-top: 40vh;
+  margin: 0;
+  width: 50vw;
+  border-bottom: 5px solid #fff100;
+}
+
+button {
+  z-index: 2;
+  position: absolute;
+  top: 75vh;
+  left: 20vw;
+  color: #000000;
+  background: #fff100;
+}
+
+#landing-page img {
+  width: 100%;
+  height: auto;
+}

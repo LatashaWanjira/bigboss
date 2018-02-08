@@ -1,0 +1,37 @@
+#offers img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+#offers .row {
+  min-height: 20vh;
+}
+
+.big, .happily {
+  background: linear-gradient(rgba(255, 241, 0, 0.8), rgba(255, 241, 0, 0.8));
+  color: black;
+}
+
+.dapper, .free {
+  background: black;
+  color: #FFF100;
+}
+
+.dapper {
+  padding: 10vh;
+  margin: 0;
+}
+
+.free {
+  padding: 5vh;
+}
+
+#offers {
+  text-align: center;
+}
+
+#offers h3 {
+  font-weight: 300;
+  font-size: 30px;
+}

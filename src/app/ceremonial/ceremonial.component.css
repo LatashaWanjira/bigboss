@@ -1,0 +1,22 @@
+#ceremonial {
+  text-align: center;
+  padding: 10vh 0 12vh 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("../../assets/sh282690.jpg");
+  background-size: cover;
+}
+
+#ceremonial h2 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+hr {
+  width: 15vw;
+  border-color: #000000;
+  border: 4px solid #000000;
+  border-radius: 20px;
+}
+
+#ceremonial button {
+  font-size: 16px;
+}

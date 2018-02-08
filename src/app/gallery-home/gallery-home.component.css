@@ -1,0 +1,51 @@
+#gallery {
+  text-align: center;
+  color: #FFF100;
+  background: url("../../assets/black-wallpaper-2.jpg");
+  background-size: cover;
+  padding: 10vh;
+}
+
+#gallery h2 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+hr {
+  width: 15vw;
+  border: 4px solid #FFF100;
+  border-radius: 20px;
+}
+
+#gallery a h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFF100;
+  overflow-wrap: break-word;
+}
+
+#gallery a:hover {
+  text-decoration: none;
+}
+
+.business {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/navy-suit-black-model.jpg");
+}
+
+.wedding {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/sh283131.jpg");
+}
+
+.accesories {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/website-10.png");
+}
+
+.business, .wedding, .accesories {
+  background-size: cover;
+  padding: 15vh 4vw;
+  height: 50vh;
+}
+
+.accesories {
+  padding: 12vh 4vw;
+}

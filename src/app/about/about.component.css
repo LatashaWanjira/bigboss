@@ -1,0 +1,24 @@
+#about {
+  margin: 10vh 0;
+}
+
+#about h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+hr {
+  width: 15vw;
+  border-color: #FFF100;
+  border: 4px solid #FFF100;
+  border-radius: 20px;
+}
+
+#about a {
+  color: black;
+}
+
+#about a:hover {
+  text-decoration: none;
+}
