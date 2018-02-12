@@ -13,10 +13,10 @@
   border-bottom: 5px solid #fff100;
 }
 
-button {
+#landing-page button {
   z-index: 2;
   position: absolute;
-  top: 75vh;
+  top: 70vh;
   left: 20vw;
   color: #000000;
   background: #fff100;
@@ -25,4 +25,22 @@ button {
 #landing-page img {
   width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 1440px) {
+  #landing-page button {
+    top: 80vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #landing-page button {
+    top: 65vh;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  #landing-page button {
+    display: none;
+  }
 }
