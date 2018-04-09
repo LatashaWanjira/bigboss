@@ -1,0 +1,14 @@
+#service {
+  background-image: url("../../assets/website-10_1.png");
+  color: #FFF100;
+  text-align: center;
+  padding: 30vh 0;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 425px) {
+  #service {
+    padding: 10vh 0;
+  }
+}

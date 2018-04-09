@@ -1,5 +1,5 @@
 .navbar-default {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 1);
   border: 0;
   border-radius: 0;
 }
@@ -9,29 +9,13 @@
 }
 
 .navbar-brand img {
-  width: 10vw;
-  height: auto;
-  -webkit-transition: all 500ms;
-  -moz-transition: all 500ms;
-  -o-transition: all 500ms;
-  transition: all 500ms;
-}
-
-.scrolled .navbar-brand img {
   width: 5vw;
-  -webkit-transition: all 500ms;
-  -moz-transition: all 500ms;
-  -o-transition: all 500ms;
-  transition: all 500ms;
+  height: auto;
 }
 
 /* Link */
 
 .navbar-nav {
-  padding: 4vh 0;
-}
-
-.scrolled .navbar-nav {
   padding: 1vh 0;
 }
 
@@ -39,29 +23,16 @@
   font-weight: 300;
   font-size: 16px;
   color: #FFF;
-  margin-left: 2vw;
+  margin-left: 0.5vw;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   color: #FFF100;
 }
 
-/*.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-  color: #FFF100;
-  background-color: #E7E7E7;
-}*/
-
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
   color: #FFF100;
   background-color: #D5D5D5;
-}
-
-.scrolled {
-  background-color: #000000;
-  -webkit-transition: all 500ms;
-  -moz-transition: all 500ms;
-  -o-transition: all 500ms;
-  transition: all 500ms;
 }
 
 .navbar-fixed-top {
@@ -76,21 +47,37 @@
   background: #000;
   color: #FFF100;
   font-weight: 300;
+  text-align: center;
 }
 
 #contact p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
-@media only screen and (max-width: 769px) {
+#contact .fa {
+  border: 2px solid #FFF100;
+  border-radius: 50%;
+  padding: 7px;
+  width: 35px;
+  height: 35px;
+}
+
+@media only screen and (min-width: 425px) and (max-width: 769px) {
   .navbar-default .navbar-nav>li>a {
     font-size: 14px;
     margin-left: 1vw;
   }
-  .scrolled .navbar-brand {
+  .navbar-brand {
     padding: 25px;
   }
-  .scrolled .navbar-nav {
-    padding: 10px 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .navbar-brand img {
+    width: 15vw;
+    height: auto;
+  }
+  #contact p {
+    font-size: 16px;
   }
 }

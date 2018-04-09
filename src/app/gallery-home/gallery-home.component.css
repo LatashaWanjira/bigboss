@@ -1,9 +1,9 @@
 #gallery {
   text-align: center;
   color: #FFF100;
-  background: url("../../assets/black-wallpaper-2.jpg");
+  background: url("../../assets/image/black_wallpaper_2.jpg");
   background-size: cover;
-  padding: 10vh;
+  padding: 10vh 0;
 }
 
 #gallery h2 {
@@ -17,27 +17,32 @@ hr {
   border-radius: 20px;
 }
 
-#gallery a h3 {
+#gallery a>h3 {
   font-weight: 700;
   font-size: 40px;
   color: #FFF100;
-  overflow-wrap: break-word;
+  transition: 0.5s;
 }
 
 #gallery a:hover {
   text-decoration: none;
 }
 
+#gallery a>h3:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
 .business {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/navy-suit-black-model.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://image.ibb.co/mA5y37/navy_suit_black_model.jpg");
 }
 
 .wedding {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/sh283131.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://image.ibb.co/hcw5i7/sh283131.jpg");
 }
 
 .accesories {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/website-10.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://image.ibb.co/jOz2Vn/website_10.png");
 }
 
 .business, .wedding, .accesories {
@@ -48,4 +53,16 @@ hr {
 
 .accesories {
   padding: 12vh 4vw;
+}
+
+@media only screen and (max-width: 768px) {
+  #gallery a>h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #gallery a>h3 {
+    font-size: 24px;
+  }
 }

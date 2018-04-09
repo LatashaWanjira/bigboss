@@ -1,16 +1,5 @@
 #landing-page {
-  margin: 0;
-}
-
-#landing-page h1 {
-  font-size: 70px;
-  font-style: italic;
-  text-align: right;
-  color: #FFF100;
-  padding-top: 40vh;
-  margin: 0;
-  width: 50vw;
-  border-bottom: 5px solid #fff100;
+  margin-top: 9vh;
 }
 
 #landing-page button {
@@ -23,8 +12,29 @@
 }
 
 #landing-page img {
-  width: 100%;
+  width: 100vw;
   height: auto;
+}
+
+#landing-page a {
+  color: black;
+}
+
+#landing-page a:hover {
+  text-decoration: none;
+}
+
+.carousel {
+  display: block;
+}
+
+.carousel-responsive-design {
+  background-image: url("../../assets/image/carousel_04.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 32vh;
+  display: none;
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -41,6 +51,18 @@
 
 @media only screen and (max-width: 769px) {
   #landing-page button {
+    display: none;
+  }
+  #landing-page {
+    margin-top: 7vh;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .carousel-responsive-design {
+    display: block;
+  }
+  .carousel {
     display: none;
   }
 }

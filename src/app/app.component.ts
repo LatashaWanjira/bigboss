@@ -18,10 +18,18 @@ export class AppComponent implements OnInit {
       }
       window.scrollTo(0, 0)
     });
-    $(document).ready(function() {
-      $(document).scroll(function() {
-        var $nav = $(".navbar-fixed-top");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 500);
+            return false;
+          }
+        }
       });
     });
   }

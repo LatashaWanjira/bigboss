@@ -12,11 +12,14 @@ import { OffersComponent } from './offers/offers.component';
 import { OurStoryComponent } from './our-story/our-story.component';
 import { CarouselHomeComponent } from './carousel-home/carousel-home.component';
 import { FaqComponent } from './faq/faq.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ServiceComponent } from './service/service.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "our-story", component: OurStoryComponent },
-  { path: "faq", component: FaqComponent }
+  { path: "faq", component: FaqComponent },
+  { path: "gallery", component: GalleryComponent }
 ]
 
 @NgModule({
@@ -30,7 +33,9 @@ const routes: Routes = [
     OffersComponent,
     OurStoryComponent,
     CarouselHomeComponent,
-    FaqComponent
+    FaqComponent,
+    GalleryComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,

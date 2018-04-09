@@ -1,5 +1,5 @@
 #about {
-  margin: 10vh 0;
+  margin: 3vh 0 10vh 0;
 }
 
 #about h2 {
@@ -21,4 +21,13 @@ hr {
 
 #about a:hover {
   text-decoration: none;
+}
+
+#about button:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+#about a:hover {
+  color: #FFF;
 }

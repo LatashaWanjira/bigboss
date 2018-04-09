@@ -1,30 +1,32 @@
-#offers img {
+.go-offers img, #offers img {
   width: 100%;
   height: auto;
   margin: 0;
 }
 
-#offers .row {
-  min-height: 20vh;
+#offers .col-lg-6, #offers .col-md-6 {
+  min-height: 55vh;
 }
 
-.big, .happily {
+#offers img {
+  height: 20vh;
+  width: auto;
+}
+
+#offers .happily img {
+  height: 25vh;
+}
+
+.dapper, .free {
   background: linear-gradient(rgba(255, 241, 0, 0.8), rgba(255, 241, 0, 0.8));
   color: black;
 }
 
-.dapper, .free {
-  background: black;
-  color: #FFF100;
-}
-
-.dapper {
-  padding: 10vh;
-  margin: 0;
-}
-
-.free {
-  padding: 5vh;
+.big, .happily, .dapper, .free {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #offers {
@@ -34,4 +36,16 @@
 #offers h3 {
   font-weight: 300;
   font-size: 30px;
+}
+
+@media only screen and (max-width: 426px) {
+  .free {
+    background: white;
+  }
+  .happily {
+    background: linear-gradient(rgba(255, 241, 0, 0.8), rgba(255, 241, 0, 0.8));
+  }
+  #offers .happily img {
+    width: 100%;
+  }
 }
