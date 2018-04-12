@@ -34,15 +34,15 @@ hr {
 }
 
 .business {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://image.ibb.co/mA5y37/navy_suit_black_model.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/navy-suit-black-model.jpg");
 }
 
 .wedding {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://image.ibb.co/hcw5i7/sh283131.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/sh283131.jpg");
 }
 
 .accesories {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://image.ibb.co/jOz2Vn/website_10.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/website-10.png");
 }
 
 .business, .wedding, .accesories {
