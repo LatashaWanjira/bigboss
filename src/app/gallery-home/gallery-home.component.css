@@ -1,7 +1,7 @@
 #gallery {
   text-align: center;
   color: #FFF100;
-  background: url("../../assets/image/black_wallpaper_2.jpg");
+  background: url("../../assets/black_wallpaper_2.jpg");
   background-size: cover;
   padding: 10vh 0;
 }
